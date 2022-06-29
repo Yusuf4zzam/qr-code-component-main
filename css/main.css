@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container .Qr-Card {
+  max-width: 300px;
+  background: white;
+  text-align: center;
+  padding: 15px 15px 30px;
+  border-radius: 10px;
+}
+
+.container .Qr-Card .image-box {
+  margin-bottom: 15px;
+}
+
+.container .Qr-Card .image-box img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container .Qr-Card .content-box {
+  padding: 5px;
+}
+
+.container .Qr-Card .content-box h2 {
+  margin-bottom: 15px;
+  color: #1f3251;
+  font-size: 20px;
+}
+
+.container .Qr-Card .content-box p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #7b879d;
+}
+/*# sourceMappingURL=main.css.map */
